@@ -33,4 +33,4 @@ done
 if [ -e $ANYENV_ROOT/completions/anyenv.${SHELL##*/} ];then
     echo "source $ANYENV_ROOT/completions/anyenv.${SHELL##*/}"
 fi
-echo "export PATH=${shims}${bins}${PATH}"
+echo "export PATH=\"${shims}${bins}${PATH}\""
